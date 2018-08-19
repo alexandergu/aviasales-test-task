@@ -1,0 +1,10 @@
+.ticket-finder {}
+
+.ticket-finder__content {
+    width: 560px;
+}
+
+.ticket-finder__filter {
+    width: 230px;
+    margin-right: 20px;
+}

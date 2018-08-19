@@ -1,0 +1,11 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f3f7fa;
+}
+
+.app__module {
+    display: flex;
+    width: 824px;
+    margin: 0 auto 50px auto;
+    padding: 0 40px;
+}

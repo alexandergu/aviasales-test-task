@@ -1,0 +1,9 @@
+.checkbox-list {}
+
+.checkbox-list__item {
+    line-height: 2.2rem;
+}
+
+.checkbox-list__item:hover {
+    background-color: #f1fcff;
+}

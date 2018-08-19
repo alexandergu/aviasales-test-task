@@ -1,0 +1,139 @@
+.ticket {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+.ticket__ticket-container {
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+.ticket__ticket-row {
+    display: table-row;
+}
+
+.ticket__col-buy {
+    display: table-cell;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    vertical-align: top;
+    border-right: 1px solid #e4e7e8;
+}
+
+.ticket__col-content {
+    display: table-cell;
+    width: 400px;
+    vertical-align: top;
+}
+
+.ticket__airline-logo {
+    text-align: center;
+    height: 56px;
+}
+
+.ticket__airline-logo__img {
+    max-width: 130px;
+}
+
+.ticket__buy-button {
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 100%;
+    height: 56px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #d64d08, 0 2px 1px 0 rgba(0,0,0,.1);
+    font-size: 1rem;
+    overflow: hidden;
+    background-color: #ff6d00;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ticket__buy-button:hover {
+    border-bottom-color: transparent;
+    background-color: #faa760;
+}
+
+.ticket__buy-button__title {
+    display: block;
+    line-height: 20px;
+}
+
+.ticket__buy-button__price {
+    display: block;
+    line-height: 20px;
+}
+
+.ticket__buy-button__price__number {}
+
+.ticket-segments {
+    display: flex;
+    padding: 20px;
+}
+
+.ticket-segments__origin {
+    width: 100px;
+    text-align: left;
+}
+
+.ticket-segments__destination {
+    width: 100px;
+    text-align: right;
+}
+
+.ticket-segments__time {
+    font-size: 2rem;
+    color: #4a4a4a;
+    line-height: 2.5rem;
+}
+
+.ticket-segments__city {
+    font-weight: 600;
+    color: #4a4a4a;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticket-segments__date {
+    color: #8b9497;
+    line-height: 1.5;
+}
+
+.ticket-segments__route-path {
+    flex: 1;
+    padding-top: 7px;
+}
+
+.ticket-segments__route-path__count-stops {
+    color: #8e9497;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    height: 20px;
+}
+
+.ticket-segments__route-path__connector {
+    height: 1px;
+    background-color: #e4e7e8;
+    position: relative;
+}
+.ticket-segments__route-path__connector:after {
+    content: '';
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABWElEQVQ4T41Sa3OCMBDcSABBrfLU///nqgYfhAQsSNJJSh0qdsb7dJm7vb3dC9Faa4zCPJVSmM1mIISMS39y8gy8XEtcyivSOMbHavU+UMoaB8bguS522xyU0pfgCWPbdWDFCUIIpEmMOIperkyUUnZbQowmwOTnyxWfhwOWiwV2eYb5fD5hJSXnWgiJKNrA9zzbUAmB/ZGh73vLmKUJHjYRYnMipNTH4gStFIJh8r2/Q9YNuq6zWsMwBHUcO9R1qd2ENLebZqxAWVUPLWbd3ytZJsMynMacKTG6KyF1cTrZQhgEdqoxSEiBtu3g+z5WywWo8+MupQ4WYQjCq0rXdYNos4HnubbIeWXNUVojSWJkyUjjYNPkHKb5fL5gfzziY7XELs/hDaaNrZ0Av9oWrChQNw3yNMVmvX7vAwgpcWAFAt/HNs/gDG4+oyeM15Kj5BxJHFnb/4tvQGa7a4fcX/MAAAAASUVORK5CYII=');
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    display: inline-block;
+    top: -7px;
+    right: 0;
+}
